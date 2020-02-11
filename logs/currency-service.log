@@ -1,0 +1,346 @@
+2020-02-11 20:55:08,601 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 27330 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 20:55:08,606 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 20:55:10,527 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 20:55:10,536 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 20:55:10,537 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 20:55:10,537 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 20:55:10,614 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 20:55:10,614 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 1897 ms
+2020-02-11 20:55:11,886 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 5728abd2-a957-43d0-84bb-10b2800536ec
+
+2020-02-11 20:55:12,165 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66236a0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fdca00a, org.springframework.security.web.header.HeaderWriterFilter@7d247660, org.springframework.security.web.csrf.CsrfFilter@33feb805, org.springframework.security.web.authentication.logout.LogoutFilter@1a500561, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a8c93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5634a861, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e3572e8, org.springframework.security.web.session.SessionManagementFilter@49d30c6f, org.springframework.security.web.access.ExceptionTranslationFilter@3003827c]
+2020-02-11 20:55:12,214 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 20:55:12,426 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 20:55:12,492 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 20:55:13,337 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 20:55:13,375 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 20:55:13,382 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 20:55:13,389 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 20:55:13,465 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 20:55:13,467 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 20:55:13,471 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 20:55:13,471 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 20:55:13,521 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 20:55:13,549 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 20:55:13,575 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 20:55:13,749 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 20:55:13,833 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 20:55:13,837 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 6.04 seconds (JVM running for 6.886)
+2020-02-11 20:55:35,506 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 20:55:35,506 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 20:55:35,521 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 14 ms
+2020-02-11 21:09:13,580 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 21:09:13,585 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 21:09:13,591 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:09:16,582 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 29462 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 21:09:16,587 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 21:09:19,488 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 21:09:19,497 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:09:19,498 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 21:09:19,498 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 21:09:19,585 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 21:09:19,585 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2661 ms
+2020-02-11 21:09:20,477 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 2767cedc-249f-4eb9-96bb-04f11ee6a27c
+
+2020-02-11 21:09:20,566 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f3b992, org.springframework.security.web.context.SecurityContextPersistenceFilter@66f28a1f, org.springframework.security.web.header.HeaderWriterFilter@526a9908, org.springframework.security.web.csrf.CsrfFilter@3c854752, org.springframework.security.web.authentication.logout.LogoutFilter@1db7157f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44a085e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d45ec0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a53f215, org.springframework.security.web.session.SessionManagementFilter@47ac613b, org.springframework.security.web.access.ExceptionTranslationFilter@44d64d4e]
+2020-02-11 21:09:20,670 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 21:09:20,866 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:09:20,932 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 21:09:21,918 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:09:21,966 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 21:09:21,973 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:09:21,980 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 21:09:22,080 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:09:22,082 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:09:22,087 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:09:22,087 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:09:22,137 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 21:09:22,166 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 21:09:22,197 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 21:09:22,552 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:09:22,589 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 21:09:22,594 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 6.86 seconds (JVM running for 7.915)
+2020-02-11 21:09:23,285 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 21:09:23,286 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 21:09:23,294 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-02-11 21:14:23,347 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 21:14:23,352 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 21:14:23,356 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:14:28,192 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 29852 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 21:14:28,217 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 21:14:30,786 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 21:14:30,795 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:14:30,796 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 21:14:30,796 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 21:14:30,901 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 21:14:30,901 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2564 ms
+2020-02-11 21:14:32,258 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: e0c53588-9467-4f63-a28d-cf17bfae3702
+
+2020-02-11 21:14:32,402 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a53f215, org.springframework.security.web.context.SecurityContextPersistenceFilter@60a19573, org.springframework.security.web.header.HeaderWriterFilter@3166f664, org.springframework.security.web.csrf.CsrfFilter@3ddeaa5f, org.springframework.security.web.authentication.logout.LogoutFilter@75e27856, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@134ff8f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18137eab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b63e6ad, org.springframework.security.web.session.SessionManagementFilter@60d6fdd4, org.springframework.security.web.access.ExceptionTranslationFilter@1dd74143]
+2020-02-11 21:14:32,442 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 21:14:32,562 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:14:32,671 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 21:14:33,904 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:14:33,967 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 21:14:33,973 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:14:33,982 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 21:14:34,099 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:14:34,101 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:14:34,105 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:14:34,105 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:14:34,154 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 21:14:34,187 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 21:14:34,219 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 21:14:34,490 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:14:34,531 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 21:14:34,535 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 6.95 seconds (JVM running for 8.013)
+2020-02-11 21:18:06,815 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 21:18:06,823 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 21:18:06,830 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:18:09,725 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 30318 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 21:18:09,728 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 21:18:11,831 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 21:18:11,859 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:18:11,860 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 21:18:11,861 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 21:18:12,105 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 21:18:12,105 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2225 ms
+2020-02-11 21:18:13,187 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 61cec47e-a453-4cc7-8a03-749be7ab2ddd
+
+2020-02-11 21:18:13,265 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1db7157f, org.springframework.security.web.context.SecurityContextPersistenceFilter@44d64d4e, org.springframework.security.web.header.HeaderWriterFilter@355c94be, org.springframework.security.web.csrf.CsrfFilter@75e09567, org.springframework.security.web.authentication.logout.LogoutFilter@51a18b21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@526a9908, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@df921b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75e27856, org.springframework.security.web.session.SessionManagementFilter@c386958, org.springframework.security.web.access.ExceptionTranslationFilter@795f8317]
+2020-02-11 21:18:13,289 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 21:18:13,389 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:18:13,442 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 21:18:14,350 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:18:14,414 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 21:18:14,421 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:18:14,429 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 21:18:14,528 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:18:14,529 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:18:14,533 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:18:14,533 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:18:14,576 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 21:18:14,598 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 21:18:14,630 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 21:18:14,835 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:18:14,874 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 21:18:14,879 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 6.037 seconds (JVM running for 6.813)
+2020-02-11 21:18:15,362 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 21:18:15,362 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 21:18:15,372 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-02-11 21:19:23,745 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 21:19:23,749 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 21:19:23,753 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:19:26,278 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 30436 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 21:19:26,281 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 21:19:28,020 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 21:19:28,032 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:19:28,033 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 21:19:28,033 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 21:19:28,124 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 21:19:28,124 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 1763 ms
+2020-02-11 21:19:28,989 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 9ff90e90-446f-4773-9457-cd675198ed9c
+
+2020-02-11 21:19:29,075 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60d6fdd4, org.springframework.security.web.context.SecurityContextPersistenceFilter@75e09567, org.springframework.security.web.header.HeaderWriterFilter@2b0dc227, org.springframework.security.web.csrf.CsrfFilter@4d1ff6b1, org.springframework.security.web.authentication.logout.LogoutFilter@157ec23b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@470d183, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@210d2a6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66f28a1f, org.springframework.security.web.session.SessionManagementFilter@43bdaa1b, org.springframework.security.web.access.ExceptionTranslationFilter@50448409]
+2020-02-11 21:19:29,100 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 21:19:29,207 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:19:29,272 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 21:19:29,959 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:19:29,994 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 21:19:30,000 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:19:30,006 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 21:19:30,082 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:19:30,083 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:19:30,088 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:19:30,089 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:19:30,129 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 21:19:30,154 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 21:19:30,187 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 21:19:30,354 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:19:30,389 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 21:19:30,392 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 4.887 seconds (JVM running for 5.761)
+2020-02-11 21:19:37,801 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 21:19:37,802 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 21:19:37,814 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-02-11 21:22:31,308 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key EUR.
+2020-02-11 21:32:49,006 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-1] Cache event EXPIRED for item with key EUR.
+2020-02-11 21:32:49,100 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-1] Cache event CREATED for item with key EUR.
+2020-02-11 21:38:12,742 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 21:38:12,747 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 21:38:12,751 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:53:22,662 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 951 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 21:53:22,665 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 21:53:26,102 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 21:53:26,119 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:53:26,120 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 21:53:26,120 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 21:53:26,240 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 21:53:26,240 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 3458 ms
+2020-02-11 21:53:28,280 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 40752285-c8cf-405c-8362-3903614ffa5e
+
+2020-02-11 21:53:28,516 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c781c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@119b0892, org.springframework.security.web.header.HeaderWriterFilter@4fdca00a, org.springframework.security.web.csrf.CsrfFilter@724b939e, org.springframework.security.web.authentication.logout.LogoutFilter@3bec5821, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ed4a7e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30b975ad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@795f8317, org.springframework.security.web.session.SessionManagementFilter@5a8c93, org.springframework.security.web.access.ExceptionTranslationFilter@49d30c6f]
+2020-02-11 21:53:28,577 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 21:53:28,717 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 21:53:28,845 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 21:53:30,465 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:53:30,537 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 21:53:30,545 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 21:53:30,553 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 21:53:31,116 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:53:31,119 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:53:31,125 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 21:53:31,126 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 21:53:31,283 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 21:53:31,387 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 21:53:31,445 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 21:53:31,779 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 21:53:31,835 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 21:53:31,839 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 10.168 seconds (JVM running for 12.056)
+2020-02-11 21:54:27,563 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 21:54:27,564 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 21:54:27,581 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 16 ms
+2020-02-11 21:54:28,129 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key EUR.
+2020-02-11 22:04:33,440 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-1] Cache event EXPIRED for item with key EUR.
+2020-02-11 22:04:33,673 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-1] Cache event CREATED for item with key EUR.
+2020-02-11 22:14:55,599 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-2] Cache event EXPIRED for item with key EUR.
+2020-02-11 22:14:55,720 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-2] Cache event CREATED for item with key EUR.
+2020-02-11 22:26:40,313 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-3] Cache event EXPIRED for item with key EUR.
+2020-02-11 22:26:40,664 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-3] Cache event CREATED for item with key EUR.
+2020-02-11 22:55:53,120 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-4] Cache event EXPIRED for item with key EUR.
+2020-02-11 22:55:53,238 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-4] Cache event CREATED for item with key EUR.
+2020-02-11 22:58:04,629 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key EUR.
+2020-02-11 23:02:22,198 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-1] Cache event CREATED for item with key HRK.
+2020-02-11 23:05:29,495 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-2] Cache event CREATED for item with key MXN.
+2020-02-11 23:06:01,529 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-5] Cache event EXPIRED for item with key EUR.
+2020-02-11 23:06:01,581 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-5] Cache event CREATED for item with key EUR.
+2020-02-11 23:07:19,064 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-3] Cache event CREATED for item with key INR.
+2020-02-11 23:08:31,827 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.smn.cconverter.dto.ConvertResponse> com.smn.cconverter.resource.CurrencyController.convert(com.smn.cconverter.dto.ConvertRequest) with 2 errors: [Field error in object 'convertRequest' on field 'baseCurrency': rejected value []; codes [Currency.convertRequest.baseCurrency,Currency.baseCurrency,Currency.java.lang.String,Currency]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [convertRequest.baseCurrency,baseCurrency]; arguments []; default message [baseCurrency]]; default message [Invalid Source Currency]] [Field error in object 'convertRequest' on field 'destCurrency': rejected value []; codes [Currency.convertRequest.destCurrency,Currency.destCurrency,Currency.java.lang.String,Currency]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [convertRequest.destCurrency,destCurrency]; arguments []; default message [destCurrency]]; default message [Invalid Destination Currency]] ]
+2020-02-11 23:08:51,323 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-4] Cache event CREATED for item with key CHF.
+2020-02-11 23:09:22,501 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-5] Cache event EXPIRED for item with key EUR.
+2020-02-11 23:10:24,306 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-6] Cache event CREATED for item with key ZAR.
+2020-02-11 23:10:36,902 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-6] Cache event CREATED for item with key THB.
+2020-02-11 23:11:37,989 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-7] Cache event CREATED for item with key USD.
+2020-02-11 23:14:24,198 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-8] Cache event CREATED for item with key EUR.
+2020-02-11 23:19:18,381 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 23:19:18,386 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 23:19:18,391 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:20:29,984 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 7118 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 23:20:29,987 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 23:20:33,129 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 23:20:33,143 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:20:33,143 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 23:20:33,143 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 23:20:33,349 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 23:20:33,349 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 3147 ms
+2020-02-11 23:20:34,579 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f78edb1a-49c0-4fbd-aa4d-024b00b00ec9
+
+2020-02-11 23:20:34,680 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51ab1ee3, org.springframework.security.web.context.SecurityContextPersistenceFilter@7219ac49, org.springframework.security.web.header.HeaderWriterFilter@12f49ca8, org.springframework.security.web.csrf.CsrfFilter@6b63e6ad, org.springframework.security.web.authentication.logout.LogoutFilter@59a79443, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@551e4c6d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15c487a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e766822, org.springframework.security.web.session.SessionManagementFilter@1b2df3aa, org.springframework.security.web.access.ExceptionTranslationFilter@59bbb974]
+2020-02-11 23:20:34,706 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 23:20:34,815 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:20:34,931 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 23:20:35,750 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:20:35,790 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 23:20:35,796 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:20:35,803 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 23:20:35,924 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:20:35,926 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:20:35,931 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:20:35,931 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:20:35,983 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 23:20:36,009 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 23:20:36,051 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 23:20:36,338 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:20:36,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 23:20:36,379 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 7.414 seconds (JVM running for 8.416)
+2020-02-11 23:20:39,511 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 23:20:39,511 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 23:20:39,519 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-02-11 23:21:18,583 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key EUR.
+2020-02-11 23:22:48,898 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 23:22:48,903 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 23:22:48,911 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:22:51,502 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 7288 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 23:22:51,504 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 23:22:53,685 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 23:22:53,699 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:22:53,699 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 23:22:53,700 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 23:22:53,809 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 23:22:53,809 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2196 ms
+2020-02-11 23:22:55,581 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 3ea3112e-5a8a-4077-a4b4-6427ff3c9b54
+
+2020-02-11 23:22:55,718 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64920dc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@575b5f7d, org.springframework.security.web.header.HeaderWriterFilter@59c70ceb, org.springframework.security.web.csrf.CsrfFilter@75e27856, org.springframework.security.web.authentication.logout.LogoutFilter@340d6d89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7165d530, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d1e0fbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59a79443, org.springframework.security.web.session.SessionManagementFilter@64f981e2, org.springframework.security.web.access.ExceptionTranslationFilter@6ee99964]
+2020-02-11 23:22:55,763 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 23:22:55,890 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:22:55,949 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 23:22:56,626 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:22:56,665 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 23:22:56,675 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:22:56,683 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 23:22:56,756 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:22:56,757 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:22:56,762 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:22:56,763 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:22:56,803 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 23:22:56,831 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 23:22:56,860 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 23:22:57,021 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:22:57,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 23:22:57,058 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 6.334 seconds (JVM running for 7.012)
+2020-02-11 23:23:12,760 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 23:23:12,760 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 23:23:12,770 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-02-11 23:27:17,040 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'ratesCache' removed from EhcacheManager.
+2020-02-11 23:27:17,044 INFO org.ehcache.core.EhcacheManager [SpringContextShutdownHook] Cache 'currencies' removed from EhcacheManager.
+2020-02-11 23:27:17,048 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:27:20,586 INFO com.smn.cconverter.CconverterApplication [main] Starting CconverterApplication on MacbookPro.local with PID 7684 (/Users/smn/work/imp/nosto/cconverter/target/classes started by smn in /Users/smn/work/imp/nosto/cconverter)
+2020-02-11 23:27:20,589 INFO com.smn.cconverter.CconverterApplication [main] The following profiles are active: dev
+2020-02-11 23:27:22,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-11 23:27:22,688 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:27:22,688 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-02-11 23:27:22,688 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-11 23:27:22,796 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-02-11 23:27:22,796 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 2026 ms
+2020-02-11 23:27:23,732 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 1b932681-e9f3-47a5-ba2f-59d551b46324
+
+2020-02-11 23:27:23,855 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64920dc2, org.springframework.security.web.context.SecurityContextPersistenceFilter@575b5f7d, org.springframework.security.web.header.HeaderWriterFilter@59c70ceb, org.springframework.security.web.csrf.CsrfFilter@75e27856, org.springframework.security.web.authentication.logout.LogoutFilter@340d6d89, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7165d530, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d1e0fbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59a79443, org.springframework.security.web.session.SessionManagementFilter@64f981e2, org.springframework.security.web.access.ExceptionTranslationFilter@6ee99964]
+2020-02-11 23:27:23,891 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-02-11 23:27:24,000 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-11 23:27:24,062 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2020-02-11 23:27:24,789 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:27:24,832 INFO org.ehcache.core.EhcacheManager [main] Cache 'ratesCache' created in EhcacheManager.
+2020-02-11 23:27:24,839 INFO org.ehcache.shadow.org.terracotta.offheapstore.paging.UpfrontAllocatingPageSource [main] Allocating 10.0MB in chunks
+2020-02-11 23:27:24,846 INFO org.ehcache.core.EhcacheManager [main] Cache 'currencies' created in EhcacheManager.
+2020-02-11 23:27:24,929 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:27:24,930 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:27:24,934 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=ratesCache
+2020-02-11 23:27:24,935 INFO org.ehcache.jsr107.Eh107CacheManager [main] Registering Ehcache MBean javax.cache:type=CacheStatistics,CacheManager=file./Users/smn/work/imp/nosto/cconverter/target/classes/ehcache.xml,Cache=currencies
+2020-02-11 23:27:24,982 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-02-11 23:27:25,019 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-02-11 23:27:25,054 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-02-11 23:27:25,248 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-11 23:27:25,296 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-11 23:27:25,306 INFO com.smn.cconverter.CconverterApplication [main] Started CconverterApplication in 5.295 seconds (JVM running for 6.179)
+2020-02-11 23:27:33,396 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-11 23:27:33,397 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-02-11 23:27:33,407 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-02-11 23:27:34,697 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key EUR.
+2020-02-11 23:27:41,852 INFO com.smn.cconverter.config.CacheEventLogger [Ehcache [_default_]-0] Cache event CREATED for item with key MXN.
