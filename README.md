@@ -1,3 +1,1 @@
-## Available Scripts
-
-Currency converter Service
+## Currency converter Service
