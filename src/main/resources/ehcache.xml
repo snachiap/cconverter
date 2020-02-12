@@ -33,7 +33,7 @@
         <key-type>java.lang.String</key-type>
         <value-type>java.util.Set</value-type>
         <expiry>
-            <ttl>600</ttl>
+            <ttl>14400</ttl>
         </expiry>
 
         <listeners>

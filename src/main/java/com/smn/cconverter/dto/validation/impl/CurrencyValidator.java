@@ -1,6 +1,5 @@
 package com.smn.cconverter.dto.validation.impl;
 
-import com.smn.cconverter.config.AppConfig;
 import com.smn.cconverter.dto.validation.Currency;
 import com.smn.cconverter.service.CurrencyService;
 import lombok.AllArgsConstructor;
