@@ -1,6 +1,5 @@
 package com.smn.cconverter.resource;
 
-import com.smn.cconverter.config.AppConfig;
 import com.smn.cconverter.dto.ConvertRequest;
 import com.smn.cconverter.dto.ConvertResponse;
 import com.smn.cconverter.service.ConverterService;

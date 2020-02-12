@@ -10,8 +10,5 @@ cache:
     maxEntries: 1000
     liveTimeInSec: 300
 
-
-
-
 exchangeRate:
   baseUrl: 'https://api.exchangeratesapi.io/latest'

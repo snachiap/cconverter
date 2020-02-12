@@ -44,13 +44,6 @@
             </exclusions>
         </dependency>
 
-        <dependency>
-            <groupId>io.github.sercasti</groupId>
-            <artifactId>spring-httpserver-timings</artifactId>
-            <version>0.0.3</version>
-        </dependency>
-
-
         <!-- Junit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
